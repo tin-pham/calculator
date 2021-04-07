@@ -34,6 +34,7 @@ buttons.forEach(button => {
             if(isNaN(result) || result == '' || evaluate == true){
                 result = Number.parseFloat(input.value);
                 // console.log(`result = ${result}`);
+                evaluate = false; 
             }else{
                 evaluate = false; 
                 evaluateCalculate();
